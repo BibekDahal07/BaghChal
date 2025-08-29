@@ -21,8 +21,9 @@ class BaghChalBoard {
         board[4][4] = 'T'; // e1
     }
 
+    // Dispaying board
     public void display() {
-        System.out.println("  a b c d e");
+        System.out.println("  a b c d e ");
         for (int i = 0; i < 5; i++) {
             System.out.print((5 - i) + " ");
             for (int j = 0; j < 5; j++) {
